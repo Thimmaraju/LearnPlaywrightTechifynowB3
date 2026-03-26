@@ -25,6 +25,7 @@ class LoginPage {
   async login(username, password) {
     await this.fillUsername(username);
     await this.fillPassword(password);
+    
     await this.clickLogin();
   }
 }
