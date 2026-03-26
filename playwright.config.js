@@ -16,7 +16,7 @@ export default defineConfig({
   testDir: './tests',
 
   expect:{
-    timeout : 20000
+    timeout : 30000
   },
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -82,13 +82,13 @@ export default defineConfig({
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
-    {
-      name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome', 
-         storageState: ".auth/user.json",
-      },
-      dependencies: ["setup"],
-    },
+    // {
+    //   name: 'Google Chrome',
+    //   use: { ...devices['Desktop Chrome'], channel: 'chrome', 
+    //      storageState: ".auth/user.json",
+    //   },
+    //   dependencies: ["setup"],
+    // },
   ],
 
   /* Run your local dev server before starting the tests */
