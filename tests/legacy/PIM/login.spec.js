@@ -16,7 +16,7 @@ test.describe("Verify Login functionality", () => {
   })
 
 
-  test.only('Verify Login with Valid Credentials', async ({ page }) => {
+  test('Verify Login with Valid Credentials', async ({ page }) => {
 
      test.slow()
     //2 se
